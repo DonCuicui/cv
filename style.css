@@ -2,17 +2,38 @@ body{
     overflow-y: hidden;
     overflow-x: hidden;
 }
-#leftContainer{
+
+#rightContainer,#leftContainer{
     height: 100vh;
+    width: 98vw;
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+#leftContainer{
     -webkit-clip-path: polygon(0 0, 24% 0, 36% 100%, 0% 100%);
     clip-path: polygon(0 0, 24% 0, 36% 100%, 0% 100%);
     background-color: lightseagreen;
-    overflow: hidden;
 }
 #profilePic{
     border-radius: 10000px;
-    width: 25vw;
+    width: 26vw;
     border-style: double;
     border-color: azure;
     border-width: 7px;
+    top: 0vw;
+    left: -2vw;
+    position: absolute;
+}
+
+#rightContainer{
+    -webkit-clip-path: polygon(100% 0, 24% 0, 36% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 24% 0, 36% 100%, 100% 100%);
+    background-color: red;
+    left: 2vw;
+}
+
+#lolol{
+    width: 200%;
+    background-color: red;
 }
