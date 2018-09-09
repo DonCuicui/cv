@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Milkshake';
+    src: url('Milkshake.woff2') format('woff2'),
+        url('Milkshake.woff') format('woff'),
+        url('Milkshake.ttf') format('truetype'),
+        url('Milkshake.svg#Milkshake') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
