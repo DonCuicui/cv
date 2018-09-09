@@ -33,7 +33,19 @@ body{
     left: 2vw;
 }
 
-#lolol{
-    width: 200%;
-    background-color: red;
+#categoryPage{
+    top: 0vh;
+    left: 37vw;
+    position: absolute;
+    font: ;
+}
+
+.text{
+    font-family: 'Milkshake';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title{
+    font-size: 5vw;
 }
