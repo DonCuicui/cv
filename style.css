@@ -1,0 +1,13 @@
+#leftContainer{
+    height: 100vh;
+    -webkit-clip-path: polygon(0 0, 24% 0, 36% 100%, 0% 100%);
+    clip-path: polygon(0 0, 24% 0, 36% 100%, 0% 100%);
+    background-color: lightseagreen;
+    overflow: hidden;
+}
+#profilePic{
+    border-radius: 10000px;
+    width: 25vw;
+    border-style: double;
+    border-color: azure;
+}
