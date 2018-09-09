@@ -17,12 +17,12 @@ body{
 }
 #profilePic{
     border-radius: 10000px;
-    width: 26vw;
+    width: 25vw;
     border-style: double;
     border-color: azure;
-    border-width: 7px;
+    border-width: 10px;
     top: 0vw;
-    left: -2vw;
+    left: 0vw;
     position: absolute;
 }
 
