@@ -40,12 +40,31 @@ body{
     font: ;
 }
 
-.text{
+.text, .year{
     font-family: 'Milkshake';
     font-weight: normal;
     font-style: normal;
 }
 
 .title{
-    font-size: 5vw;
+    font-size: 4vw;
+    left: -8vw;
+    top: -1vw;
+}
+.title, #boxOne , #boxTwo {
+    position: relative;
+}
+#boxTwo {
+    left: -6vw;
+    top: -2vw;
+    width: 40vw;
+}
+#boxOne {
+    left: -4vw;
+    top: -2vw;
+}
+.txtBoxes {
+    font-family: 'ubuntu-regular';
+    font-weight: normal;
+    font-style: normal;
 }
